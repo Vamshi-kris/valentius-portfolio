@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vamshi's developer portfolio — software development, web experiences, and problem solving.">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>Vamshi — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Vamshi home"><span class="brand-mark">V.</span><span>VAMSHI<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme"><span class="theme-icon">◐</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER · IT STUDENT</p>
+        <h1 id="hero-title">Building useful<br><span class="muted-word">things for</span> the web<span class="accent">.</span></h1>
+        <p class="hero-lede">I'm Vamshi — an Information Technology student who enjoys turning ideas into thoughtful digital experiences and practical software.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-line"></span> Based in India</span>
+          <a href="https://github.com/Vamshi-kris" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/vamshigurram27/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative abstract portfolio graphic">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-core"><span>VK</span><small>CREATIVE<br>CODE</small></div>
+        <div class="art-tag tag-top">DESIGN MINDED</div>
+        <div class="art-tag tag-bottom">BUILD · TEST · REFINE</div>
+        <span class="art-cross cross-one">+</span><span class="art-cross cross-two">+</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-border" id="about" aria-labelledby="about-title">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2 id="about-title">Curious by nature.<br><span class="muted-word">Builder by practice.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">I like understanding how things work — then using that knowledge to make them work better.</p>
+          <p>I'm pursuing a B.Tech in Information Technology at VNR VJIET. My interests span web development, software fundamentals, and building accessible interfaces that feel clear and intuitive.</p>
+          <p>Outside the code, I'm always learning, experimenting with ideas, and looking for opportunities to grow through real-world projects.</p>
+          <div class="education-note">
+            <span class="note-icon">↗</span>
+            <div><strong>B.Tech — Information Technology</strong><span>VNR VJIET · CGPA 8.6</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">02 / TOOLKIT</p><h2 id="skills-title">Skills & <span class="muted-word">technologies.</span></h2></div>
+          <p class="section-aside">Tools I use to learn, build, and ship projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-index">A</span><h3>Frontend</h3><p>Creating responsive, accessible interfaces with attention to detail.</p><div class="chip-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article>
+          <article class="skill-card reveal"><span class="skill-index">B</span><h3>Backend & data</h3><p>Exploring application logic, data handling, and authentication flows.</p><div class="chip-list"><span>Firebase</span><span>Firestore</span><span>Node.js basics</span></div></article>
+          <article class="skill-card reveal"><span class="skill-index">C</span><h3>Workflow</h3><p>Keeping work organized, versioned, and easy to understand.</p><div class="chip-list"><span>Git</span><span>GitHub</span><span>VS Code</span></div></article>
+          <article class="skill-card reveal"><span class="skill-index">D</span><h3>Foundations</h3><p>Applying core concepts to solve problems and build reliable software.</p><div class="chip-list"><span>Problem solving</span><span>Data structures</span><span>Debugging</span></div></article>
+        </div>
+        <p class="small-note">This is a snapshot of my current toolkit; I'm continuously learning and expanding it.</p>
+      </div>
+    </section>
+
+    <section class="section section-border" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2 id="projects-title">Projects with <span class="muted-word">purpose.</span></h2></div>
+          <p class="section-aside">A few things I've been working on.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual visual-pathfinder"><span class="visual-label">01 — CAREER DISCOVERY</span><div class="pathfinder-ui"><div class="mini-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="mini-title">Find your next direction.</div><div class="mini-line"></div><div class="mini-blocks"><b></b><b></b><b></b></div></div><span class="visual-symbol">↗</span></div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-number">01</span></div><h3>PathFinder</h3><p>A career guidance platform concept designed to help users explore possible paths and organize their next steps.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div><div class="project-links"><a href="https://github.com/Vamshi-kris/pathfinder-app-mvp" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-disk"><span class="visual-label">02 — OPERATING SYSTEMS</span><div class="disk-art"><div class="disk-ring ring-a"></div><div class="disk-ring ring-b"></div><div class="disk-center">I/O</div><div class="disk-node node-a"></div><div class="disk-node node-b"></div><div class="disk-node node-c"></div></div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">VISUALIZATION</span><span class="project-number">02</span></div><h3>Disk Scheduling</h3><p>A browser-based project exploring disk scheduling concepts through an interactive visual interface.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/Vamshi-kris/disk-scheduling-streaming" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-security"><span class="visual-label">03 — SECURITY TOOLKIT</span><div class="security-art"><div class="shield">✓</div><span class="security-line line-a"></span><span class="security-line line-b"></span><span class="security-line line-c"></span></div></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">CYBERSECURITY</span><span class="project-number">03</span></div><h3>Cybersecurity Projects</h3><p>A collection of security-focused learning projects, including authentication and network scanning concepts.</p><div class="project-tech"><span>Python</span><span>Security</span><span>Networking</span></div><div class="project-links"><a href="https://github.com/Vamshi-kris/CyberSecurity-projects" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></div>
+          </article>
+        </div>
+        <div class="projects-foot reveal"><span>MORE EXPERIMENTS IN PROGRESS</span><a href="https://github.com/Vamshi-kris?tab=repositories" target="_blank" rel="noopener noreferrer">Explore all repositories ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-heading reveal"><p class="eyebrow">04 / CONTACT</p><h2 id="contact-title">Have an idea?<br><span class="muted-word">Let's talk.</span></h2></div>
+        <div class="contact-content reveal"><p class="large-copy">I'm open to learning opportunities, collaborations, and conversations about building useful things.</p><a class="email-link" href="mailto:vamshigurram78@gmail.com">vamshigurram78@gmail.com <span>↗</span></a><div class="social-links"><a href="https://github.com/Vamshi-kris" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/vamshigurram27/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">V.</span><span>VAMSHI<span class="brand-dot">.</span></span></a><p>Designed & built with care.</p><a href="#top" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> Vamshi</span></div>
+  </footer>
+</body>
+</html>
